@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial do Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #e9ecef; /* Cor de fundo mais suave */
+            font-family: 'Arial', sans-serif;
+        }
+        h1 {
+            color: #343a40; /* Título em cor mais escura */
+            font-weight: bold;
+        }
+        .post-card {
+            margin-bottom: 20px;
+        }
+        .post-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .gif-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+        .card {
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.05); 
+        }
+        .card-body {
+            background-color: #f8f9fa;
+            border-radius: 0 0 10px 10px; 
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Bem-vindo ao Blog Samurai</h1>
+        <p class="text-center">Descubra conteúdos incríveis sobre o mundo samurai e muito mais!</p>
+
+        <div class="gif-container mb-5">
+            <img src="https://uploads.disquscdn.com/images/1c0803a2ab95e6f49711346a1ba2e1f727dee367a5beecd9ed4f5f986ef4b754.gif" alt="Gif Samurai">
+        </div>
+
+        <div class="row">
+            <!-- Post 1 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 post-card">
+                <div class="card h-100">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/healthy-food-1237373_1280.jpg" class="card-img-top" alt="Post 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Alimentação Saudável</h5>
+                        <p class="card-text flex-grow-1">Dicas essenciais para uma alimentação balanceada e rica em nutrientes.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Ler Mais</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Post 2 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 post-card">
+                <div class="card h-100">
+                    <img src="https://cdn.pixabay.com/photo/2017/03/07/07/51/exercise-2121892_1280.jpg" class="card-img-top" alt="Post 2">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Exercícios para Iniciantes</h5>
+                        <p class="card-text flex-grow-1">Comece sua jornada fitness com exercícios simples e eficazes.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Ler Mais</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Post 3 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 post-card">
+                <div class="card h-100">
+                    <img src="https://cdn.pixabay.com/photo/2015/09/18/19/03/mental-health-957060_1280.jpg" class="card-img-top" alt="Post 3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Saúde Mental</h5>
+                        <p class="card-text flex-grow-1">A importância de cuidar da saúde mental no dia a dia.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Ler Mais</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Post 4 -->
+            <div class="col-lg-3 col-md-6 col-sm-12 post-card">
+                <div class="card h-100">
+                    <img src="https://cdn.pixabay.com/photo/2018/01/26/18/43/bed-1954776_1280.jpg" class="card-img-top" alt="Post 4">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Sono de Qualidade</h5>
+                        <p class="card-text flex-grow-1">Como melhorar a qualidade do seu sono para uma vida mais saudável.</p>
+                        <a href="#" class="btn btn-primary mt-auto">Ler Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+</body>
+</html>
+
